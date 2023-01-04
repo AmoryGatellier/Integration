@@ -1,0 +1,231 @@
+#tri li a:focus,
+#tri li a:hover {
+    color: blue !important;
+}
+
+#tri .dropdown-item:hover {
+    background-color: black;
+}
+
+#recherche input {
+    border: none;
+}
+
+#recherche input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#recherche {
+    border: 2px solid white;
+    padding: 7px;
+    width: 500px;
+}
+
+.pasgras {
+    font-weight: 10;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pr-30 {
+    padding-right: 30px !important;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pr-75 {
+    padding-right: 75px;
+}
+
+#page1 {
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background: url("Rectangle 4.svg") no-repeat;
+    background-size: 100%;
+}
+
+#blogo {
+    padding-left: 130px;
+    padding-top: 70px;
+}
+
+#serie {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#jum {
+    padding-top: 287px;
+    margin-left: -145px;
+}
+
+.jum1{
+    color: #ffffff;
+    width: 870px;
+    font-size: 41px;
+}
+
+#page1 h2{
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+#page1 p{
+    padding-top: 17px;
+    padding-left: 120px;
+}
+
+#carouselbg{
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 7.81%);
+    margin-top: -100px;
+    height: 500px;
+}
+
+#slider{
+    margin-left: 150px;
+}
+
+.text-light{
+    font-size: 45px;
+}
+
+#film{
+    position: absolute;
+    top: 950px;
+}
+
+html ,footer{
+    background-color: #141414;
+    color: grey;
+    font-size: 20px;
+}
+
+#i1{
+    margin-left: 600px;
+}
+
+#i1 img{
+    margin: 10px;
+}
+
+#i2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* slider */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    a.arrow__btn {
+        display: none;
+    }
+}
+
+/* autres pages*/
+
+#page2 {
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background: url("Rectangle 4 (1).svg") no-repeat;
+    background-size: 100%;
+}
+
+#page3 {
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background: url("film.svg") no-repeat;
+    background-size: 100%;
+}
+
+#Series{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 70px;
+}
+
+.tabGenre{
+    width: 500px;
+    height: 180px;
+    color: grey;
+    text-align: justify;
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 12px;
+}
+
+#btn {
+    position: absolute;
+    top: 155px;
+    left: 250px;
+}
+
+#btn:hover{
+    background-color: black;
+}
+
+#btn:focus ~ .tabGenre {
+    display: block;
+}
