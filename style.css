@@ -1,12 +1,3 @@
-#tri li a:focus,
-#tri li a:hover {
-    color: blue !important;
-}
-
-#tri .dropdown-item:hover {
-    background-color: black;
-}
-
 #recherche input {
     border: none;
 }
