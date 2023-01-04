@@ -17,17 +17,6 @@
     left: 137px;
 }
 
-#fleche{
-    margin-left: -105px !important;
-}
-
-{
-    margin-top: -35px;
-    padding-left: 43px;
-    font-size: 20px;
-    font-weight: 500;
-}
-
 #slider{
     background-color: black;
     margin-top: 100px;
@@ -36,6 +25,20 @@
 #film{
     position: absolute;
     top: 400px;
+}
+
+#film2{
+    position: absolute;
+    top: 600px;
+}
+
+#film3{
+    position: absolute;
+    top: 790px;
+}
+
+.wrappero{
+    margin-top: 50px;
 }
 
 .wrapper {
@@ -84,4 +87,20 @@
     top: 0;
     bottom: 0;
     right: 0;
+}
+
+footer{
+    background-color: #191919;
+    height: 80px;
+}
+
+footer img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#loupe{
+    position: absolute;
+    top: 970px;
+    left: 160px;
 }
